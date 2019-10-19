@@ -1,0 +1,7 @@
+W - Up (Only when floating)
+A - Left
+S - Down (Only when floating) 
+D - Right 
+E - Interact
+Shift - toggle between floating and walking
+Space - Jump (only useable when walking)
