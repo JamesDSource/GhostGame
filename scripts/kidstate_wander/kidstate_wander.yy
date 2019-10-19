@@ -1,8 +1,8 @@
 {
-    "id": "8720c2ec-4781-453b-af09-ed787aa552b2",
+    "id": "bc3d99c7-0b3c-402d-bfbe-25d504728f71",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "playerstate_walk",
+    "name": "kidstate_wander",
     "IsCompatibility": false,
     "IsDnD": false
 }

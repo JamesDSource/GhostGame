@@ -1,0 +1,41 @@
+
+ghost-player.png
+size: 64,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 2
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+cap
+  rotate: false
+  xy: 23, 10
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 23, 2
+  size: 13, 6
+  orig: 13, 6
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 46, 10
+  size: 7, 3
+  orig: 7, 3
+  offset: 0, 0
+  index: -1
+tie
+  rotate: false
+  xy: 46, 19
+  size: 3, 8
+  orig: 3, 8
+  offset: 0, 0
+  index: -1
