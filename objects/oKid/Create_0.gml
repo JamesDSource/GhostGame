@@ -1,7 +1,13 @@
+randomize(); 
 state = KIDSTATE.Wander;
-states[KIDSTATE.Wander] = kidstate_wander; 
+states[KIDSTATE.Wander] = kidstate_wander;
+states[KIDSTATE.Stairs] = kidstate_stairs; 
 dir = 1;
 walking_speed = 1;
-priorities = ds_list_create();
-prioritize[0] = oDoor; 
-priority = noone; 
+hsp = 0;
+vsp = 0;
+stair_direction = 1;
+stair_path_index = noone; 
+started_stairs = false; 
+ideal_angle = 0; 
+stair_flip = 1; 
