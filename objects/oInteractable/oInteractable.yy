@@ -69,6 +69,20 @@
             "value": "0",
             "varName": "flash",
             "varType": 0
+        },
+        {
+            "id": "63b561e2-cfe4-45e3-9e6b-7a0f8bff6cb3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "can_select",
+            "varType": 3
         }
     ],
     "solid": false,

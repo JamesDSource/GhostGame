@@ -1,0 +1,1 @@
+global.hints = ds_list_create();

@@ -14,10 +14,8 @@ if(!started_stairs) {
 		show_debug_message("happening");
 	}
 	else stair_flip = 1;
-	//ideal_angle = point_direction(x, y, path_get_point_x(stair_path_index, point_path_lookat), path_get_point_y(stair_path_index, point_path_lookat));
 }
 else if(path_index == -1 && started_stairs) {
-	ideal_angle = 0; 
 	started_stairs = false;
 	dir = 0;
 	while(dir == 0) dir = irandom_range(-1, 1); 

@@ -19,6 +19,7 @@ target_xscale = 1;
 solid_list[1] = oDoor;
 solid_list[0] = oSolid;
 object_selected = noone;
+interact_hint_pos = -1; 
 // light
 with(instance_create_layer(x, y, "Lighting", oLight_circle)) {
 	paired_object = other.id; 

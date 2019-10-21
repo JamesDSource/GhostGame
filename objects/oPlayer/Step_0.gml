@@ -17,9 +17,14 @@ if(current_animation != set_animation) {
 var rad = 45;
 var collision_list = ds_list_create(); 
 var instances = collision_circle_list(x, y, rad, oInteractable, false, true, collision_list, true);
-if(instances > 0) with(collision_list[| 0]) {
-	selected = true;
-	other.object_selected = id;
+if(instances > 0) {
+	for(var i = 0; i < ds_list_size(collision_list); i++) {
+		with(collision_list[| i]) if(can_select) {
+			selected = true;
+			other.object_selected = id;
+			break;
+		}
+	}
 }
 else object_selected = noone; 
 ds_list_destroy(collision_list);
@@ -32,4 +37,14 @@ y = clamp(y, 0, room_height);
 if(y == room_height) vsp = 0; 
 // audio
 audio_listener_position(x,y,0);
-audio_listener_set_orientation(0,0,1000,0,0,0,1); 
+audio_listener_set_orientation(0,0,1000,0,0,0,1);
+// hints
+if(object_selected != noone && interact_hint_pos == -1) {
+	var hint = "Press \"E\" to interact";
+	ds_list_add(global.hints, hint);
+	interact_hint_pos = ds_list_find_index(global.hints, hint); 
+}
+else if(object_selected == noone && interact_hint_pos != -1) {
+	ds_list_delete(global.hints, interact_hint_pos);
+	interact_hint_pos = -1; 
+}

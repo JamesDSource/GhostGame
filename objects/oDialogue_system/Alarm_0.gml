@@ -4,7 +4,8 @@ else
 {
 	iteration++;
 	if(string_char_at(message, iteration - 1) == "/") iteration += 2; 
-	alarm[0] = iteration_time; 
+	alarm[0] = iteration_time;
+	drop = drop_max;
 }
 if(string_char_at(message, iteration-1) != " " && string_char_at(message, iteration) != "") {
 	var pitch = 1 + random_range(-0.1, 0.1); 

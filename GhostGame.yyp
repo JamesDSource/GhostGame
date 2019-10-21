@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "088d2bd6-8ea9-47bb-9b6a-e509198e86a9",
+            "Value": {
+                "id": "22fa69e6-5ec4-4e83-b39c-7ffe603ed66f",
+                "resourcePath": "fonts\\fHints\\fHints.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "09fd9dba-66ce-44b2-ab89-374d5d4eb56e",
             "Value": {
                 "id": "4737b2f2-7d76-4cad-aae0-b71c28459028",
@@ -92,6 +100,14 @@
                 "id": "f226673d-a7ec-4bdb-986e-93d8900275f0",
                 "resourcePath": "sprites\\sStairs_top\\sStairs_top.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "14e71054-7a98-415b-9996-c398ff339a7f",
+            "Value": {
+                "id": "a55abf96-ae21-4c73-914d-0ef7969d3bbe",
+                "resourcePath": "objects\\oHint_messages\\oHint_messages.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -500,6 +516,14 @@
                 "id": "fcd2cc4d-9476-4025-98c6-c610c680f9db",
                 "resourcePath": "scripts\\dialogue_set_scale\\dialogue_set_scale.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e5744d4a-d4f6-4b1f-b6c9-df8dfd399db5",
+            "Value": {
+                "id": "3e43330f-da2e-4b5e-8faa-2d88ab8aba03",
+                "resourcePath": "objects\\oPickup\\oPickup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
