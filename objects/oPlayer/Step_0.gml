@@ -30,3 +30,6 @@ if(object_selected != noone && key_interact) with(object_selected) {
 x = clamp(x, 0, room_width);
 y = clamp(y, 0, room_height); 
 if(y == room_height) vsp = 0; 
+// audio
+audio_listener_position(x,y,0);
+audio_listener_set_orientation(0,0,1000,0,0,0,1); 

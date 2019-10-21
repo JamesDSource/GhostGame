@@ -7,7 +7,7 @@
         "f150cafd-f16d-4887-a90c-8fd59a1e844c"
     ],
     "filterType": "GMScript",
-    "folderName": "Player",
+    "folderName": "player",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

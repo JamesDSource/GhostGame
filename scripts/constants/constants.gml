@@ -17,3 +17,16 @@
 		RunAway
 	}
 #endregion
+// dialogue system
+enum TEXTMODIFIERS
+{
+	None,	
+	Shake,
+	Wave,
+	Yellow_recolor,
+	Crawl,
+	Quick,
+	New_line,
+	Wiggle,
+	Rainbow
+}

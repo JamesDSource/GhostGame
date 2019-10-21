@@ -1,0 +1,21 @@
+dialogue = pointer_null;
+message = "" 
+draw_x = 0;
+draw_y = 0;
+color = make_colour_rgb(255, 255, 255);
+shadow_color = make_color_rgb(0, 0, 0); 
+scale = 1;
+t = 0;
+rec_end_width = 0; 
+modifier[0] = TEXTMODIFIERS.None;
+iteration = 1; 
+time_between_letters = 5;
+iteration_time = time_between_letters; 
+done = true; 
+y_offset = 0;
+distance_from_line = 0; 
+obj = noone; 
+spoiled = false; 
+emitter = audio_emitter_create();
+audio_falloff_set_model(audio_falloff_exponent_distance);
+audio_emitter_falloff(emitter, 500, 2000, 10);
