@@ -19,3 +19,10 @@
 	push_out(oSolid); 
 #endregion
 change_xscale(dir); 
+if(place_meeting(x, y, oStairs_top) && !stair_collision) {
+	stair_collision = true;
+	if(chance(50)) state = KIDSTATE.Stairs; 
+}
+else if(!place_meeting(x, y, oStairs_top) && stair_collision) {
+	stair_collision = false;
+}

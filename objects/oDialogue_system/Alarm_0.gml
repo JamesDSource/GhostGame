@@ -1,7 +1,11 @@
 /// @description typewritter
-if(iteration == string_length(message) + 1) done = true;
-else
-{
+if(iteration == string_length(message) + 1) {
+	done = true;
+	if(automatic) {
+		alarm[1] = room_speed * seconds_after_done;
+	}
+}
+else {
 	iteration++;
 	if(string_char_at(message, iteration - 1) == "/") iteration += 2; 
 	alarm[0] = iteration_time;

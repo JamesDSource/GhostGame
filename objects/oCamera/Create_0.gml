@@ -1,7 +1,7 @@
 cam = camera_create(); 
 
-#macro VIEWWIDTH display_get_width()/4
-#macro VIEWHEIGHT display_get_height()/4
+#macro VIEWWIDTH display_get_width()/2
+#macro VIEWHEIGHT display_get_height()/2
 
 var view_matrix = matrix_build_projection_ortho(VIEWWIDTH, VIEWHEIGHT, -10000000, 10000000);
 camera_set_proj_mat(cam, view_matrix);

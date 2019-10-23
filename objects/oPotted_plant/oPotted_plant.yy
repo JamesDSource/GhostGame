@@ -1,23 +1,14 @@
 {
-    "id": "39e3c05e-44b4-4283-bbca-1dd5bc60cb63",
+    "id": "61b6724a-283d-4974-8d78-6674d039f0c7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oStairs_bottom",
+    "name": "oPotted_plant",
     "eventList": [
-        {
-            "id": "9e6bc28e-1274-491e-9b96-92706c83ecd9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "a1a9b181-0a1d-4877-8794-d815a72d3047",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "39e3c05e-44b4-4283-bbca-1dd5bc60cb63"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "0da2f1f0-c29e-46f0-9d77-9cd40c47b858",
+    "parentObjectId": "e5744d4a-d4f6-4b1f-b6c9-df8dfd399db5",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8c727d3c-e209-49b2-a809-3dcb7f9b454e",
-    "visible": false
+    "spriteId": "2ded75e3-df17-4027-8bbe-c737a03fc5d8",
+    "visible": true
 }

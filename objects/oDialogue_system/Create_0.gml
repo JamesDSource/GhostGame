@@ -1,5 +1,7 @@
 dialogue = pointer_null;
 message = "" 
+automatic = false;
+seconds_after_done = 2; 
 draw_x = 0;
 draw_y = 0;
 color = make_colour_rgb(255, 255, 255);
