@@ -159,11 +159,27 @@
             }
         },
         {
+            "Key": "2f667e11-6e14-4e82-bcab-684117d4eea1",
+            "Value": {
+                "id": "cafd71be-2371-46ca-8ebe-f4e719527653",
+                "resourcePath": "tilesets\\tWallpaper\\tWallpaper.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "313ed07a-1386-4365-9d08-cc7071a79626",
             "Value": {
                 "id": "f38e42a7-c38f-4aa7-8c5d-f0e585789110",
                 "resourcePath": "views\\313ed07a-1386-4365-9d08-cc7071a79626.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "34712d6b-cb31-441d-9b6c-6a4c6c30ea8b",
+            "Value": {
+                "id": "33934293-324f-4ea5-91c5-8ca7e13b9dea",
+                "resourcePath": "sprites\\sGhost_solid\\sGhost_solid.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -303,6 +319,22 @@
             }
         },
         {
+            "Key": "6f42750c-92f0-4235-9e91-52ac929ed433",
+            "Value": {
+                "id": "dfa2383c-221c-48e8-bb63-04ce7ffdf2e6",
+                "resourcePath": "objects\\oGhost_solid\\oGhost_solid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "733cc71d-ec83-4433-a2c8-9120166205dc",
+            "Value": {
+                "id": "84c036bd-15d0-4275-bbae-89ca9594e549",
+                "resourcePath": "sprites\\sOffice\\sOffice.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75b920eb-fadd-48d6-8de2-afc651f314d8",
             "Value": {
                 "id": "b9b0ce4e-5631-49ea-923d-955f58254940",
@@ -407,10 +439,10 @@
             }
         },
         {
-            "Key": "a29e496e-c4cc-4431-be3c-7424b54aa031",
+            "Key": "a45a2a8d-9530-4a98-8cee-3fe412adc5f4",
             "Value": {
-                "id": "4c2f22a4-8953-434c-aaac-dfc558230dc5",
-                "resourcePath": "sprites\\sRolling_chair\\sRolling_chair.yy",
+                "id": "0e82def8-9aa1-4f38-b7ef-3947751bd89b",
+                "resourcePath": "sprites\\sWallpaper\\sWallpaper.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -487,14 +519,6 @@
             }
         },
         {
-            "Key": "c98f4c30-b60d-4b8f-9bae-acc0e62c322a",
-            "Value": {
-                "id": "3e3fb5d0-32c3-434e-9a22-b7555849527a",
-                "resourcePath": "sprites\\sDesk\\sDesk.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "790065ff-6ee9-498b-af52-1441f67ecbd2",
@@ -524,6 +548,14 @@
                 "id": "fa6d36d3-e876-4b37-96dd-c41c3ce8f8ed",
                 "resourcePath": "scripts\\dialogue_set_speed\\dialogue_set_speed.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d0619bc1-80cd-4830-a30e-6f516d37fe37",
+            "Value": {
+                "id": "4a734ab2-d6f2-4e61-b39e-ff1c0de99bd8",
+                "resourcePath": "objects\\oGame\\oGame.yy",
+                "resourceType": "GMObject"
             }
         },
         {

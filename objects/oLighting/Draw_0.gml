@@ -8,7 +8,6 @@ else {
 	var w = surface_get_width(lighting_surface);
 	var h = surface_get_height(lighting_surface);
 	draw_rectangle_color(0, 0, w, h, b, b, b, b, false);
-	//draw_set_alpha(0.3);
 	gpu_set_blendmode(bm_max);
 	with(oLight) event_perform(ev_draw, 0);
 	gpu_set_blendmode(bm_normal); 

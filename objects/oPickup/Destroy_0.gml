@@ -1,0 +1,1 @@
+audio_play_sound_on(prop_emitter, break_sound, false, 2);

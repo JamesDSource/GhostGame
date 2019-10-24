@@ -15,16 +15,6 @@
             "m_owner": "4811e660-215b-4a17-81d0-1c78da3de044"
         },
         {
-            "id": "7d1e60d4-cb6a-49a9-8162-1172a5f07305",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "4811e660-215b-4a17-81d0-1c78da3de044"
-        },
-        {
             "id": "a2ede91b-8fd3-47ed-b7df-3090ad458b7f",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -51,7 +41,64 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "f7a71841-6581-4a0f-90b1-ffa006fd39f9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "glow",
+            "varType": 3
+        },
+        {
+            "id": "baade366-387d-4595-9e86-8fe17c16c092",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "radius",
+            "varType": 0
+        },
+        {
+            "id": "c61ca052-f4a0-481e-9d5c-9a7345c0f087",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "$00FFFFFF",
+            "varName": "color",
+            "varType": 7
+        },
+        {
+            "id": "42827356-9603-400c-95a8-37283cbec5f0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "paired_object",
+            "varType": 5
+        }
+    ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": false

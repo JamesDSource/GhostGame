@@ -22,3 +22,4 @@ audio_listener_set_orientation(0,0,1000,0,0,0,1);
 // hints
 interact_hint = toggle_hints(object_selected != noone, interact_hint, "Press \"E\" to interact");
 drop_hint = toggle_hints(!can_select, drop_hint, "Press \"E\" to drop");
+throw_hint = toggle_hints(!can_select, throw_hint, "Press \"F\" to throw");

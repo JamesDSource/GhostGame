@@ -7,6 +7,14 @@
 	if(hDir == 0) hAcc = FLOATDECELL;
 	vsp = approach(vsp, vDir * FLOATMAXSPEED, vAcc); 
 	hsp = approach(hsp, hDir * FLOATMAXSPEED, hAcc); 
+	if(place_meeting(x + hsp, y, oGhost_solid)) {
+		while(!place_meeting(x + sign(hsp), y, oGhost_solid)) x += sign(hsp); 
+		hsp = 0; 
+	}
+	if(place_meeting(x, y + vsp, oGhost_solid)) {
+		while(!place_meeting(x, y + sign(vsp), oGhost_solid)) y += sign(vsp);
+		vsp = 0; 
+	}
 	if(hsp != 0) {
 		target_xscale = sign(hsp);
 		current_animation = PLAYERANIMATIONS.Float;

@@ -1,5 +1,6 @@
 // input
 key_drop = keyboard_check_pressed(ord("E")); 
+key_thrown = keyboard_check_pressed(ord("F")); 
 if(picked_up) {
 	depth = oPlayer.depth -1;
 	var x_;
@@ -19,6 +20,12 @@ if(picked_up) {
 	can_select = false; 
 	// dropping
 	if(key_drop) event_user(0); 
+	if(key_thrown) {
+		hsp += horizontal_throw * oPlayer.image_xscale;
+		vsp += verticle_throw;
+		thrown = true;
+		event_user(0); 
+	}
 }
 else {
 	depth = depth_init; 
@@ -34,10 +41,12 @@ else {
 		}
 	}
 	if(place_meeting(x, y +1, oSolid)) {
-		var surface_friction = 0.1;
+		var surface_friction = 0.5;
 		hsp = approach(hsp, 0, surface_friction);
+		if(thrown) instance_destroy(); 
 	}
 	x += hsp;
-	y += vsp; 
+	y += vsp;
 	can_select = true;
 }
+audio_emitter_position(prop_emitter, x, y, 0); 

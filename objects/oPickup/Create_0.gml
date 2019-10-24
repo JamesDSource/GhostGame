@@ -6,3 +6,7 @@ key_drop = false;
 key_thrown = false;
 solids[1] = oDoor; 
 solids[0] = oSolid;
+verticle_throw = -3;
+horizontal_throw = 5;
+prop_emitter = audio_emitter_create();
+thrown = false; 

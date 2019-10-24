@@ -21,5 +21,4 @@ spoiled = false;
 drop_max = 10 * scale;
 drop = drop_max;
 emitter = audio_emitter_create();
-audio_falloff_set_model(audio_falloff_exponent_distance);
 audio_emitter_falloff(emitter, 500, 2000, 10);
