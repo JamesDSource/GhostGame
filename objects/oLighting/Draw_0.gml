@@ -2,8 +2,7 @@ if(lighting_surface == -1) lighting_surface = surface_create(room_width, room_he
 else {
 	draw_surface(lighting_surface, 0, 0); 
 	surface_set_target(lighting_surface);
-	var darkness = 0.7;
-	draw_set_alpha(darkness);
+	draw_set_alpha(DARKNESS);
 	var b = c_black;
 	var w = surface_get_width(lighting_surface);
 	var h = surface_get_height(lighting_surface);

@@ -89,6 +89,34 @@
             "value": "noone",
             "varName": "break_sound",
             "varType": 5
+        },
+        {
+            "id": "8e63ec19-3b77-42ae-b5aa-bfba43faa6ee",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "pieces_sprite",
+            "varType": 5
+        },
+        {
+            "id": "d3fbea2e-33d6-4b31-974a-05604896b038",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "pieces_amount",
+            "varType": 0
         }
     ],
     "solid": false,

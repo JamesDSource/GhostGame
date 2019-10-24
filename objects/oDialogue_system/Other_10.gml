@@ -1,7 +1,8 @@
 /// @description Continues dialogue
 /// @description Continues the dialogue
-var txt = ds_queue_dequeue(dialogue);
-if(is_undefined(txt)) instance_destroy();
+var txt = pointer_null;
+if(ds_exists(dialogue, ds_type_queue)) var txt = ds_queue_dequeue(dialogue);
+if(is_undefined(txt) || txt == pointer_null) instance_destroy();
 else
 {
 	// setting properties

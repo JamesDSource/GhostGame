@@ -1,4 +1,3 @@
-
 if(!started_stairs) {
 	path_start(stair_path_index, walking_speed * stair_direction, path_action_stop, true);
 	started_stairs = true;
@@ -14,6 +13,7 @@ if(!started_stairs) {
 		show_debug_message("happening");
 	}
 	else stair_flip = 1;
+	floor_level += -stair_direction; 
 }
 else if(path_index == -1 && started_stairs) {
 	started_stairs = false;

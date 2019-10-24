@@ -11,14 +11,4 @@ stair_path_index = noone;
 started_stairs = false;
 stair_collision = false; 
 stair_flip = 1; 
-
-#region random traits
-	traits = ds_map_create();
-	var running_fast = false;
-	if(chance(10)) {
-		running_fast = true;
-		var spd_bonus = 0.5
-		walking_speed += spd_bonus; 
-	}
-	ds_map_add(traits, "fast_runner", running_fast); 
-#endregion
+floor_level = 0; 

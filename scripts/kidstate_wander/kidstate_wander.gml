@@ -18,11 +18,13 @@
 	y += vsp;
 	push_out(oSolid); 
 #endregion
+#region stairs
+	if(place_meeting(x, y, oStairs_top) && !stair_collision) {
+		stair_collision = true;
+		if(chance(50)) state = KIDSTATE.Stairs; 
+	}
+	else if(!place_meeting(x, y, oStairs_top) && stair_collision) {
+		stair_collision = false;
+	}
+#endregion
 change_xscale(dir); 
-if(place_meeting(x, y, oStairs_top) && !stair_collision) {
-	stair_collision = true;
-	if(chance(50)) state = KIDSTATE.Stairs; 
-}
-else if(!place_meeting(x, y, oStairs_top) && stair_collision) {
-	stair_collision = false;
-}
