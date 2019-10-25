@@ -1,8 +1,8 @@
 {
-    "id": "f6964ec4-ebc0-4ed4-b58f-ce0372c67274",
+    "id": "8d988aa2-e475-4f2c-9908-8b8058866b76",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sdText_scroll",
+    "name": "sdShadder",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

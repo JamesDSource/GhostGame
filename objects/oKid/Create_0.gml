@@ -12,3 +12,6 @@ started_stairs = false;
 stair_collision = false; 
 stair_flip = 1; 
 floor_level = 0; 
+
+info = ds_map_create();
+ds_map_add(info, "name", "Name");

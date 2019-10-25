@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "6f852bc5-dfa9-4eb6-acdd-5c628826e52d",
+            "Value": {
+                "id": "ee48c606-a943-4e6b-a5eb-55e15ba3f782",
+                "resourcePath": "fonts\\fGame\\fGame.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "733cc71d-ec83-4433-a2c8-9120166205dc",
             "Value": {
                 "id": "84c036bd-15d0-4275-bbae-89ca9594e549",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "8d988aa2-e475-4f2c-9908-8b8058866b76",
+            "Value": {
+                "id": "6ef1bc11-aa43-4633-b6b1-c9fd6c3da257",
+                "resourcePath": "sounds\\sdShadder\\sdShadder.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8f5ef1b3-2b26-4dcc-8daf-0f827d133131",
             "Value": {
                 "id": "bf37a0db-f40d-4f13-abc9-526b5df5e1db",
@@ -434,7 +450,7 @@
             "Key": "9321dfca-a70b-4ac1-9338-5c1d740645b5",
             "Value": {
                 "id": "ebab7dda-25a7-45d3-9d90-87c7f77f184b",
-                "resourcePath": "fonts\\fGame\\fGame.yy",
+                "resourcePath": "fonts\\fDialogue\\fDialogue.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -500,6 +516,14 @@
                 "id": "80101e53-cdb6-4a30-8b6c-a07a024ef358",
                 "resourcePath": "scripts\\dialogue_set_background_color\\dialogue_set_background_color.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b9e2d69d-b6d5-407e-8b7a-9df033aefa1c",
+            "Value": {
+                "id": "55a0a291-2f53-40d7-a890-174e08050b2f",
+                "resourcePath": "objects\\oChild_stats\\oChild_stats.yy",
+                "resourceType": "GMObject"
             }
         },
         {

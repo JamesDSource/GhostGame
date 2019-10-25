@@ -1,6 +1,7 @@
 draw_set_font(fHints);
 draw_set_valign(fa_bottom);
 draw_set_halign(fa_right); 
+draw_set_color(c_white); 
 var margin = 10;
 var draw_x = display_get_gui_width() - margin;
 var draw_y = display_get_gui_height() - margin;
