@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "427049ff-4da2-4d5d-8b2e-dc9c61bb911d",
+            "Value": {
+                "id": "8d82e783-a568-4525-9663-b5452518971e",
+                "resourcePath": "paths\\pStairs6\\pStairs6.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "44e5d70c-1dd6-403d-bc5f-e966d396dd75",
             "Value": {
                 "id": "de47a19a-d5ad-41af-82f0-f6694c512468",
@@ -471,6 +479,14 @@
             }
         },
         {
+            "Key": "97a708b5-b2c2-4f86-9b1f-526fc384cda0",
+            "Value": {
+                "id": "f2e15531-40e8-4056-9c0a-89c1e5096a63",
+                "resourcePath": "paths\\pStairs5\\pStairs5.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "9fb05f00-14e6-4901-adb5-87963d9225e5",
             "Value": {
                 "id": "46fbfeca-ac7e-4cc5-8fb0-a296c93fe6c9",
@@ -519,6 +535,22 @@
             }
         },
         {
+            "Key": "ab497857-5dd6-42f2-b1e0-1f2b3883b20a",
+            "Value": {
+                "id": "ef93b69e-b148-4f25-b03e-b05682728dda",
+                "resourcePath": "paths\\pStairs2\\pStairs2.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "b3bb41c5-1da4-4034-a332-882206849b24",
+            "Value": {
+                "id": "c36a2087-207f-484a-9bb5-3e984dcb2e20",
+                "resourcePath": "datafiles_yy\\names.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "b9e2d69d-b6d5-407e-8b7a-9df033aefa1c",
             "Value": {
                 "id": "55a0a291-2f53-40d7-a890-174e08050b2f",
@@ -559,6 +591,14 @@
             }
         },
         {
+            "Key": "bb5b65bd-afb8-44d5-8b5d-48d9b98e0561",
+            "Value": {
+                "id": "c678fe81-187e-43dc-85be-720111ff48f9",
+                "resourcePath": "paths\\pStairs4\\pStairs4.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "bc3d99c7-0b3c-402d-bfbe-25d504728f71",
             "Value": {
                 "id": "b5fac498-1d8c-4549-8610-d0a2fa6b7521",
@@ -596,6 +636,14 @@
                 "id": "c70f35cf-bff7-4714-b12a-636b047d7e05",
                 "resourcePath": "views\\c77e6b7b-d9ce-46dd-898c-b503c28641c1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c7ff2373-74d8-47ac-a5bf-7cc970e302eb",
+            "Value": {
+                "id": "1c380955-8eaa-4edb-b5a7-a97e734a3b0c",
+                "resourcePath": "scripts\\kid_get_trait\\kid_get_trait.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -687,6 +735,22 @@
             }
         },
         {
+            "Key": "e2138c9c-2997-4842-8545-d1f5920357a0",
+            "Value": {
+                "id": "1ef81344-8cc0-45b5-8806-610edbe3bd32",
+                "resourcePath": "scripts\\draw_text_shadow\\draw_text_shadow.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e45d603c-24a9-4137-8db3-8fcb3c635f9b",
+            "Value": {
+                "id": "9bcdc07d-4987-4d26-99a1-6ab5fe6b91b1",
+                "resourcePath": "fonts\\fName\\fName.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "e5744d4a-d4f6-4b1f-b6c9-df8dfd399db5",
             "Value": {
                 "id": "3e43330f-da2e-4b5e-8faa-2d88ab8aba03",
@@ -700,6 +764,14 @@
                 "id": "56e86210-c7de-457a-87ca-c6079249bb69",
                 "resourcePath": "rooms\\Game_room\\Game_room.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ef1f0f3c-7898-4e4e-a47f-89fbaf9671da",
+            "Value": {
+                "id": "6a8b0904-2dab-425f-a83f-f6228e775e56",
+                "resourcePath": "paths\\pStairs3\\pStairs3.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -733,14 +805,6 @@
                 "resourcePath": "objects\\oPlayer\\oPlayer.yy",
                 "resourceType": "GMObject"
             }
-        },
-        {
-            "Key": "fe6f7a69-d943-4a26-a6b1-a98a429b87df",
-            "Value": {
-                "id": "0a9def35-c282-43a9-bc6f-2f45f37b25ea",
-                "resourcePath": "datafiles_yy\\Controls.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
         }
     ],
     "script_order": [
@@ -748,6 +812,7 @@
         "f150cafd-f16d-4887-a90c-8fd59a1e844c",
         "bc3d99c7-0b3c-402d-bfbe-25d504728f71",
         "8f5ef1b3-2b26-4dcc-8daf-0f827d133131",
+        "c7ff2373-74d8-47ac-a5bf-7cc970e302eb",
         "bef7e81b-0a3a-4bb3-9926-a6d835927ae9",
         "cdd3995f-bde1-4712-8ca6-4ef63b4ad7fb",
         "5689c34f-7bb2-43df-96fa-f0543f91a941",
@@ -756,6 +821,7 @@
         "11cdf3e1-48d3-42a4-96bf-7d24f8418c73",
         "ba886de3-b8b8-4fe7-a285-675f7da0d050",
         "7d188688-32d5-46d4-892d-26e0858a575e",
+        "e2138c9c-2997-4842-8545-d1f5920357a0",
         "02bdbb3d-3448-4561-be1a-de7cfd5dc88a",
         "79311fa6-ac78-4be9-ae4e-ed1f9137f3e7",
         "bb28ad5e-7ca4-4d2e-b4bc-85b80d484309",

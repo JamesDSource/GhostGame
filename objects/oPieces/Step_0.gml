@@ -12,6 +12,7 @@ for(var i = 0; i < array_length_1d(solids); i++) {
 		while(!place_meeting(x, y + sign(vsp), solids[i])) y += sign(vsp);
 		vsp = 0;
 	}
+	push_out(solids[i]);
 }
 x += hsp;
 y += vsp;

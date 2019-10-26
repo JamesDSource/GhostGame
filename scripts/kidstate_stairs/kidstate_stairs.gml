@@ -3,14 +3,13 @@ if(!started_stairs) {
 	started_stairs = true;
 	var point_path_lookat;
 	if(stair_direction == 1) {
-		point_path_lookat = 2;
+		point_path_lookat = 1;
 	}
 	else {
-		point_path_lookat = 1;
+		point_path_lookat = 0;
 	}
 	if(x > path_get_point_x(stair_path_index, point_path_lookat)) {
 		stair_flip = -1; 
-		show_debug_message("happening");
 	}
 	else stair_flip = 1;
 	floor_level += -stair_direction; 

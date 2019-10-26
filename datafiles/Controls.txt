@@ -1,6 +1,0 @@
-W - Up 
-A - Left
-S - Down 
-D - Right 
-E - Interact
-Control - Start and continue test dialogue

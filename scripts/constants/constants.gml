@@ -1,4 +1,5 @@
 #macro GRAVITY 0.3
+#macro NAMESFILE "names.txt"
 #region player
 	enum PLAYERSTATE {
 		Walk,
@@ -16,6 +17,20 @@
 		Cower,
 		RunAway
 	}
+	enum TRAIT {
+		Coward,
+		Inquisitive,
+		GoodHearing,
+		Leader,
+		Greedy
+	}
+	enum ANXIETY {
+		Calm,
+		OnEdge,
+		Anxious,
+		Terrified
+	}
+	#macro TRAITAMOUNT 5
 #endregion
 // dialogue system
 enum TEXTMODIFIERS

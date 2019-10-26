@@ -14,7 +14,7 @@ hsp = 0;
 target_xscale = image_xscale; 
 #macro FLOATACC 0.3
 #macro FLOATDECELL 0.1
-#macro FLOATMAXSPEED 3
+#macro FLOATMAXSPEED 5
 // interactions
 solid_list[1] = oDoor;
 solid_list[0] = oSolid;
