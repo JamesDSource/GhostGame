@@ -23,3 +23,6 @@ shake_frames = 0;
 shake_remain = 0; 
 
 follow = oPlayer; 
+/**with(oKid) {
+	other.follow = id;	
+}**/

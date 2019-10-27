@@ -1,2 +1,2 @@
 // state
-script_execute(states[state]); 
+script_execute(states[state]);

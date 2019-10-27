@@ -19,12 +19,16 @@
 	push_out(oSolid); 
 #endregion
 #region stairs
-	if(place_meeting(x, y, oStairs_top) && !stair_collision) {
+	if(place_meeting(x, y, oStairs) && !stair_collision) {
 		stair_collision = true;
 		if(chance(50)) state = KIDSTATE.Stairs; 
 	}
-	else if(!place_meeting(x, y, oStairs_top) && stair_collision) {
+	else if(!place_meeting(x, y, oStairs) && stair_collision) {
 		stair_collision = false;
 	}
 #endregion
+if(anxiety_level == ANXIETY.Terrified) {
+	flee = true; 
+	state = KIDSTATE.RunAway;
+}
 change_xscale(dir); 

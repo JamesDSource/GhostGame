@@ -54,7 +54,7 @@ else {
 		}
 	#endregion
 	surface_reset_target();
-	var slide = 10;
+	var slide = 20;
 	if(global.show_stats) draw_x = approach(draw_x, 0, slide); 
 	else draw_x = approach(draw_x, OFFSCREENX, slide); 
 	if(draw_x != OFFSCREENX) draw_surface(stats_window, draw_x, 0);

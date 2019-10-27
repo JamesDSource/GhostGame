@@ -2,8 +2,8 @@
 #macro NAMESFILE "names.txt"
 #region player
 	enum PLAYERSTATE {
-		Walk,
-		Float
+		Float,
+		Static
 	}
 	enum PLAYERANIMATIONS {
 		Idle,

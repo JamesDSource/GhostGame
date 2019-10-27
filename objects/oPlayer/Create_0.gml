@@ -1,6 +1,7 @@
 // state
-state = PLAYERSTATE.Float;
+state = PLAYERSTATE.Static;
 states[PLAYERSTATE.Float] = playerstate_float; 
+states[PLAYERSTATE.Static] = playerstate_static(); 
 // input
 key_down = false;
 key_up = false;
