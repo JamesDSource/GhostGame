@@ -11,6 +11,6 @@ else y_offset = -10;
 y_ += y_offset;
 x_ = clamp(x_, oCamera.x - VIEWWIDTH/2 + (string_width(info[? "name"])/2), oCamera.x + VIEWWIDTH/2 - (string_width(info[? "name"])/2));
 y_ = clamp(y_, oCamera.y - VIEWHEIGHT/2, oCamera.y + VIEWHEIGHT/2);
-draw_text_shadow(x_, y_, info[? "name"], 2);
+if(!out_of_game) draw_text_shadow(x_, y_, info[? "name"], 2);
 draw_set_alpha(1); 
 draw_self(); 

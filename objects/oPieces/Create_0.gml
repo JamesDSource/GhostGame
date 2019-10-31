@@ -5,3 +5,4 @@ vsp = lengthdir_y(spd, dir);
 hsp = lengthdir_x(spd, dir);
 solids[1] = oDoor; 
 solids[0] = oSolid;
+alarm[0] = room_speed * irandom_range(5, 30); 

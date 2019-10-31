@@ -31,6 +31,14 @@
             "objectId": "e5744d4a-d4f6-4b1f-b6c9-df8dfd399db5",
             "propertyId": "d7f92202-e87f-4d6e-8da0-b0ed8cdef08b",
             "value": "sdShadder"
+        },
+        {
+            "id": "2a310c8b-be77-4f71-a86f-12c74a849d6d",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "e5744d4a-d4f6-4b1f-b6c9-df8dfd399db5",
+            "propertyId": "d9e77bcf-edf4-418a-b3b4-45bc9678f5c8",
+            "value": "True"
         }
     ],
     "parentObjectId": "e5744d4a-d4f6-4b1f-b6c9-df8dfd399db5",

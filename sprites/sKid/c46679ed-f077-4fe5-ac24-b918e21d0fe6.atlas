@@ -1,0 +1,48 @@
+
+kid.png
+size: 64,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 2
+  size: 16, 24
+  orig: 16, 24
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 20, 7
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+leg-bottom-left
+  rotate: false
+  xy: 41, 14
+  size: 4, 12
+  orig: 4, 12
+  offset: 0, 0
+  index: -1
+leg-bottom-right
+  rotate: false
+  xy: 41, 14
+  size: 4, 12
+  orig: 4, 12
+  offset: 0, 0
+  index: -1
+leg-top-left
+  rotate: false
+  xy: 47, 16
+  size: 4, 10
+  orig: 4, 10
+  offset: 0, 0
+  index: -1
+leg-top-right
+  rotate: false
+  xy: 47, 16
+  size: 4, 10
+  orig: 4, 10
+  offset: 0, 0
+  index: -1

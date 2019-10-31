@@ -1,2 +1,2 @@
 /// @desc automatic dialogue
-dialogue_next();
+event_user(0);

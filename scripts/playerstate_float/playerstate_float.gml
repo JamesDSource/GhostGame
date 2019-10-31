@@ -24,10 +24,18 @@
 	y += vsp; 
 #endregion
 #region interactables
+	var pickups = ds_list_create(); 
 	with(oPickup) {
-		if(picked_up) other.can_select = false;
-		else other.can_select = true;
+		ds_list_add(pickups, id);
 	}
+	var up = false; 
+	for(var i = 0; i < ds_list_size(pickups); i ++) {
+		with(pickups[| i]) {
+			if(picked_up) up = true; 
+		}
+	}
+	if(up) can_select = false;
+	else can_select = true; 
 	if(can_select) {
 		var rad = 45;
 		var collision_list = ds_list_create(); 

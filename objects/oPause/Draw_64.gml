@@ -1,0 +1,1 @@
+if(is_paused) event_inherited(); 

@@ -29,4 +29,6 @@
 		dir = -1;
 	}
 #endregion
+// animations
+current_animation = KIDANIMATIONS.Run; 
 change_xscale(dir); 

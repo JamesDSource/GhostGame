@@ -14,15 +14,17 @@
 	enum KIDSTATE {
 		Wander,
 		Stairs,
-		Cower,
-		RunAway
+		Startled,
+		RunAway,
+		Steal,
+		Static
 	}
 	enum TRAIT {
 		Coward,
 		Inquisitive,
 		GoodHearing,
 		Leader,
-		Greedy
+		FastWalker
 	}
 	enum ANXIETY {
 		Calm,
@@ -30,11 +32,19 @@
 		Anxious,
 		Terrified
 	}
+	enum KIDANIMATIONS {
+		Walk,
+		Run,
+		Idle
+	}
+	enum NOISETYPE {
+		Door,
+		Break
+	}
 	#macro TRAITAMOUNT 5
 #endregion
 // dialogue system
-enum TEXTMODIFIERS
-{
+enum TEXTMODIFIERS {
 	None,	
 	Shake,
 	Wave,
@@ -45,3 +55,17 @@ enum TEXTMODIFIERS
 	Wiggle,
 	Rainbow
 }
+#region title
+	enum PAGES {
+		Main,
+		Quit,
+		Lose,
+		Win
+	}
+	enum ELEMENTTYPE {
+		Script_runner,
+		Transfer,
+		Toggle,
+		Slider
+	}
+#endregion

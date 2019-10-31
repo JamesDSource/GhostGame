@@ -43,7 +43,7 @@ else {
 	if(place_meeting(x, y +1, oSolid)) {
 		var surface_friction = 0.5;
 		hsp = approach(hsp, 0, surface_friction);
-		if(thrown) instance_destroy(); 
+		if(thrown && can_break) instance_destroy(); 
 	}
 	x += hsp;
 	y += vsp;

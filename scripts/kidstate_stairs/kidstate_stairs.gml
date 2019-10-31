@@ -1,6 +1,6 @@
 if(!started_stairs) {
 	var spd = walking_speed; 
-	if(flee) spd = running_speed; 
+	if(flee) spd = running_speed;
 	path_start(stair_path_index, spd * stair_direction, path_action_stop, true);
 	started_stairs = true;
 	var point_path_lookat;
@@ -20,7 +20,8 @@ else if(path_index == -1 && started_stairs) {
 	started_stairs = false;
 	dir = 0;
 	while(dir == 0) dir = irandom_range(-1, 1); 
-	if(!flee) state = KIDSTATE.Wander;
-	else state = KIDSTATE.RunAway; 
+	if(flee) state = KIDSTATE.RunAway;
+	else if(has_idol) state = KIDSTATE.Steal;
+	else state = KIDSTATE.Wander; 
 }
 change_xscale(stair_flip); 

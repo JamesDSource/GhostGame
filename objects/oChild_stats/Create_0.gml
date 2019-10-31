@@ -10,7 +10,7 @@ with(oKid) ds_list_add(other.kids, id);
 traits[TRAIT.Coward] = "Coward"; 
 traits[TRAIT.Inquisitive] = "Inquisitive";
 traits[TRAIT.GoodHearing] = "Good Hearing"; 
-traits[TRAIT.Greedy] = "Greedy";
+traits[TRAIT.FastWalker] = "Fast Walker";
 traits[TRAIT.Leader] = "Leader"; 
 
 anxiety[ANXIETY.Calm] = "Calm";

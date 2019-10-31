@@ -10,7 +10,6 @@ camera_set_view_mat(cam,vm);
 view_set_wport(0, VIEWWIDTH);
 view_set_hport(0, VIEWHEIGHT);
 surface_resize(application_surface, VIEWWIDTH, VIEWHEIGHT);
-display_set_gui_size(display_get_width(), display_get_height()); 
 view_camera[0] = cam; 
 
 
