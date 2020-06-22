@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "c0cb7f8b-7bfd-4465-896b-adecc90d992e",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
+            }
+        },
+        {
             "Key": "75b920eb-fadd-48d6-8de2-afc651f314d8",
             "Value": {
                 "id": "b9b0ce4e-5631-49ea-923d-955f58254940",
@@ -812,6 +820,14 @@
                 "id": "42120584-1583-43b1-9d0d-85a573f0f1db",
                 "resourcePath": "tilesets\\tCement_dark\\tCement_dark.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "c1ebb0cd-7720-41e5-a779-b5549b61cba6",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -1300,6 +1316,14 @@
                 "id": "8cea6947-c07a-4b54-a0c7-fbc59b1997fc",
                 "resourcePath": "sounds\\sdStart\\sdStart.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "dcdb6637-1f27-4b2f-a0d3-31242955863a",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
